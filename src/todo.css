@@ -1,0 +1,70 @@
+html {
+    scroll-behavior: smooth;
+    overflow-x:hidden;
+  }
+
+.App h1{
+    display: inline-block;
+    color: rgb(255, 94, 0);
+    border-radius: 12px ;
+    border-bottom: solid rgb(62, 0, 97) 5px  ;
+    font-size: 70px;
+    -webkit-text-stroke-width:1.8px;
+    -webkit-text-stroke-color: rgb(0, 0, 0);
+}
+
+div.App{
+    text-align: center;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(90deg in oklab, rgb(122, 0, 253), rgb(255, 249, 161));
+}
+
+.todo-list , .add-todo input {
+    height: 55px;
+    border: solid 3px rgb(5, 0, 145);
+    border-radius: 12px;
+    margin: 5px;
+    background: linear-gradient(90deg in oklab, rgb(60, 177, 255), rgb(255, 243, 78));
+    font-size: 22px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(136, 0, 52);
+    font-weight: 700;
+}
+
+.todo-list li{
+    list-style: none;
+    position: relative;
+    top: -5px;
+}
+
+.todo-list img {
+    position: relative;
+    top: 5px;
+    float: right;
+    padding-left: 50px;
+    padding-right: 15px;
+    max-width: 25px;
+    width: 5%;
+}
+
+p.nowork {
+    font-family: cursive;
+    font-size: 35px;
+    color: #fff664;
+    text-align: center;
+    -webkit-text-stroke-width: 1.5px;
+    -webkit-text-stroke-color: rgb(86 35 35);
+}
+
+.add-todo button {
+    font-family: cursive;
+    background: white;
+    height: 35px;
+    width: 50px;
+    border-radius: 5px;
+}
